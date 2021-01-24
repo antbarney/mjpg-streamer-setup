@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=root
 RemainAfterExit=yes
-ExecStart=/usr/local/Repetier-Setup/bin/startAllCams
+ExecStart=/home/pi/mjpg-streamer-setup/bin/startAllCams
 
 [Install]
 WantedBy=multi-user.target
